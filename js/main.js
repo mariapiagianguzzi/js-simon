@@ -1,7 +1,7 @@
 /* Un alert espone 5 numeri casuali diversi.
 Una volta inseriti i 5 numeri, il software dice quanti e quali numeri sono stati ricordati. */
 
-/* CREO DUE VARIABILI VUOTE DI NUMERI CASUALI CHE IL PC DEVE GENERARE E L'UTENTE DEVE INSERIRE*/
+/* CREO TRE VARIABILI VUOTE DI NUMERI CASUALI CHE IL PC DEVE GENERARE E L'UTENTE DEVE INSERIRE*/
 
 var numeriPc = []; 
 var userNumbers = [];
@@ -40,5 +40,5 @@ setTimeout(function () {
   //console.log(numeriIndovinati);
   alert("Hai ricordato " + numeriIndovinati.length + " numeri");
   alert("Ti sei ricordato i seguenti numeri: " + numeriIndovinati);
-}, 3000);
+}, 30000);
 
